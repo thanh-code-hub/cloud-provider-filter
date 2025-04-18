@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing App component renders correctly 1`] = `
+<div>
+  <div
+    role="root-container"
+  >
+    <div>
+      <form
+        role="filter-form"
+      >
+        <fieldset
+          disabled=""
+          style="padding: 0px; margin: 0px;"
+        >
+          <input
+            placeholder="Enter provider"
+            role="provider-search-input"
+            type="text"
+            value=""
+          />
+          <input
+            placeholder="Enter location or address"
+            role="location-search-input"
+            type="text"
+            value=""
+          />
+          <button
+            role="search-button"
+            type="submit"
+          >
+            Search cloud provider
+          </button>
+          <button
+            role="clear-button"
+          >
+            Clear
+          </button>
+        </fieldset>
+      </form>
+    </div>
+    <table
+      role="provider-table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Cloud Name
+          </th>
+          <th>
+            Cloud Description
+          </th>
+          <th>
+            Provider
+          </th>
+          <th>
+            Provider Description
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        role="provider-table-body"
+      >
+        <tr>
+          <td
+            colspan="4"
+            role="provider-table-loading-row"
+            style="text-align: center;"
+          >
+            Loading cloud data...
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

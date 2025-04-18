@@ -1,0 +1,8 @@
+.vscode/
+!.vscode/*.example.json
+*/.idea
+/.idea/
+
+*/.env
+*/.env.local
+*/.env.prod
